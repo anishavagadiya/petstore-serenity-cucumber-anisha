@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="User Swagger application" skipped="0" tests="2" time="0.14" timestamp="2023-01-10T21:40:55.196Z[Europe/London]"><testcase name="User CRUD test"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+io.swagger.petstore.crudtest.steps.MyStepdef_User.iVerifyThatTheUserIsCreatedWith(MyStepdef_User.java:83)&#13;
+✽.Then I verify that the user is created with "test001"(usercrud.feature:7)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="3" name="Testing user features on swagger application" skipped="0" tests="4" time="0.82" timestamp="2023-01-10T21:40:53.907Z[Europe/London]"><testcase name="I created a new user and verify if the user is added on the application"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+io.swagger.petstore.crudtest.steps.MyStepdef_User.iVerifyThatTheUserIsCreatedWithStatus(MyStepdef_User.java:43)&#13;
+✽.Then I verify that the user is created with status 200(user.feature:6)&#13;
+</system-err></testcase><testcase name="I get a new user was added successfully"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+io.swagger.petstore.crudtest.steps.MyStepdef_User.iGetANewAddedUserWithUsername(MyStepdef_User.java:49)&#13;
+✽.When I get a new added user with username "&lt;username&gt;"(user.feature:9)&#13;
+</system-err></testcase><testcase name="I update the new created user from the application"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+io.swagger.petstore.crudtest.steps.MyStepdef_User.iVerifyThatUserIsUpdated(MyStepdef_User.java:60)&#13;
+✽.Then I verify that user is updated(user.feature:14)&#13;
+</system-err></testcase><testcase name="I delete created user from the application"/></testsuite>

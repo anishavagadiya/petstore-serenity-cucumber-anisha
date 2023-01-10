@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="4" name="Testing pet features on swagger application" skipped="0" tests="4" time="9.64" timestamp="2023-01-10T21:40:42.097Z[Europe/London]"><testcase name="I created a new pet and verify if the pet is added on the application"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+io.swagger.petstore.crudtest.steps.MyStepdef_Pet.iVerifyThatThePetIsCreatedWithStatus(MyStepdef_Pet.java:54)&#13;
+✽.Then I verify that the pet is created with status 200(pets.feature:6)&#13;
+</system-err></testcase><testcase name="I verify the pet was added successfully"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+io.swagger.petstore.steps.PetsSteps.findPetById(PetsSteps.java:39)&#13;
+io.swagger.petstore.crudtest.steps.MyStepdef_Pet.iGetANewPetWithPetId(MyStepdef_Pet.java:60)&#13;
+✽.When I get a new pet with petId(pets.feature:9)&#13;
+</system-err></testcase><testcase name="I update the new created pet from the application"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+io.swagger.petstore.steps.PetsSteps.findPetById(PetsSteps.java:39)&#13;
+io.swagger.petstore.crudtest.steps.MyStepdef_Pet.iVerifyThatPetIsUpdated(MyStepdef_Pet.java:92)&#13;
+✽.Then I verify that pet is updated(pets.feature:14)&#13;
+</system-err></testcase><testcase name="I delete created pet from the application"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+io.swagger.petstore.crudtest.steps.MyStepdef_Pet.iVerifyPetIsDeleted(MyStepdef_Pet.java:105)&#13;
+✽.Then I verify pet is deleted(pets.feature:18)&#13;
+</system-err></testcase></testsuite>

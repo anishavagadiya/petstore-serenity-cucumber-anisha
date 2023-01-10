@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Testing user features on swagger application","I created a new user and verify if the user is added on the application","FAILURE","2023-01-10T21:40:53.907Z[Europe/London]","0.0","0.14"
+"Testing user features on swagger application","I get a new user was added successfully","FAILURE","2023-01-10T21:40:54.210Z[Europe/London]","0.0","0.56"
+"Testing user features on swagger application","I update the new created user from the application","FAILURE","2023-01-10T21:40:54.838Z[Europe/London]","0.0","0.05"
